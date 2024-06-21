@@ -13,7 +13,7 @@
 # обнови цену, убери товар и запрашивай цену. В поле для ответа загрузи ссылку на GitHub-репозиторий, содержащий код
 # проекта с реализацией задания.
 
-#Создаём класс Store с атрибутами
+# Создаём класс Store с атрибутами
 # name - название магазина, address - адрес магазина, items -  название товара, prices - цена
 class Store:
     def __init__(self, name, address):
@@ -22,7 +22,7 @@ class Store:
         self.items = {}
         self.prices = {}
 
-    #Метод для добавления товара и его цену
+    # Метод для добавления товара и его цену
     def add_item(self, item_name, item_price):
         self.items[item_name] = True
         self.prices[item_name] = item_price
